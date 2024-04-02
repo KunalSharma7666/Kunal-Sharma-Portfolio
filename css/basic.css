@@ -1,0 +1,250 @@
+.flipbook-viewport{
+	/* overflow:hidden;
+	width:100%;
+	height:100%; */
+	background-color: black;
+}
+
+/* .flipbook-viewport .container{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:auto;
+} */
+
+.flipbook-viewport .flipbook{
+	width:922px;
+	height:600px;
+	left:260px;
+	top: 50px;
+}
+
+.flipbook-viewport .page{
+	/* transition: none; */
+	width:461px;
+	height:600px;
+	/* background-color:white; */
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+
+/* .flipbook .table-contents{
+	font-size:16px;
+	width:300px;
+	margin:80px auto;
+	color:#ccc;
+} */
+
+.flipbook .table-contents li{
+	font-family: "Stempel-Garamond-W01-Roman";
+	list-style:none;
+	line-height:25px;
+	margin-top: -5px;
+}
+
+.flipbook .table-contents span{
+	float:right;
+	/* margin-right: 10px; */
+}
+
+.flipbook .table-contents a{
+	float:left;
+	width:85%;
+	clear:both;
+	text-decoration:none;
+	color:#333;
+	margin: 8px;
+	margin-left: 20px;
+	padding:0 10px;
+	line-height: 22px;
+	
+}
+
+.flipbook .table-contents a:hover{
+	background:#CAD1EE;
+	float:left;
+	width:85%;
+	clear:both;
+	text-decoration:none;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	border-radius:10px;
+	cursor: pointer;
+}
+
+.flipbook h1{
+	font-family: "Stempel-Garamond-W01-Roman";
+	font-size:30px;
+	font-weight: lighter;
+	color: #333;
+	-webkit-text-fill-color: #333;
+	-webkit-text-stroke-color: white;
+	-webkit-text-stroke-width: 0.005em;
+	
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+/* .flipbook .table-contents h1{
+	font-size:40px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	/* line-height: 50px; 
+}*/
+.flipbook .even{
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.97, #fff), color-stop(1, #dadada));
+	background-image:-webkit-linear-gradient(left, #fff 97%, #dadada 100%);
+	background-image:-moz-linear-gradient(left, #fff 97%, #dadada 100%);
+	background-image:-ms-linear-gradient(left, #fff 97%, #dadada 100%);
+	background-image:-o-linear-gradient(left, #fff 97%, #dadada 100%);
+	background-image:linear-gradient(left, #fff 97%, #dadada 100%);
+}
+
+.flipbook .odd{
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.97, #fff), color-stop(1, #cacaca));
+	background-image:-webkit-linear-gradient(right, #fff 97%, #cacaca 100%);
+	background-image:-moz-linear-gradient(right, #fff 97%, #cacaca 100%);
+	background-image:-ms-linear-gradient(right, #fff 97%, #cacaca 100%);
+	background-image:-o-linear-gradient(right, #fff 97%, #cacaca 100%);
+	background-image:linear-gradient(right, #fff 97%, #cacaca 100%);
+}
+#cover{
+	background-position: -20px 0;
+}
+#inside_cover{
+	background-position: -15px 0;
+}
+/* .flipbook .odd .hard{
+	display: none;
+} */
+
+.flipbook .about{
+	font-family: "Stempel-Garamond-W01-Roman";
+	/* font-size:16px; */
+}
+
+.flipbook .about p{
+	
+	font-family: "Stempel-Garamond-W01-Roman";
+	margin: 15px 30px;
+	line-height: 22px;
+}
+.flipbook .about.capital,
+.flipbook .about .no-indent{
+	text-indent: 0;
+}
+
+.flipbook .capital:first-letter {
+    display:block;
+    float:left;
+    font-size: 300%;
+    line-height: 70%;
+	margin-right: 6px;
+	margin-top: 7px;
+	margin-left: 8px;
+}
+
+.For-All-Projects img{
+	width: 13rem;
+	position: relative;
+	transition: 1s ease;
+}
+
+.For-All-Projects p{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+	opacity: 0;
+	font-size: 1.5rem;
+	font-weight: 900;
+	-webkit-text-stroke: 0.4px white;
+	transition: 0.5s ease;
+}
+
+.For-All-Projects-Image-Container{
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+	position: relative;
+}
+
+.image-cover{
+	width: 208px;
+	height: 208px;
+	border-radius: 20%;
+	overflow: hidden;
+	transition: 0.8s;
+}
+
+.image-cover:hover{
+	cursor: pointer;
+	border-radius: 0%;
+}
+
+hr{
+	margin-top: 2rem;
+	margin-left:auto;
+	margin-right: auto;
+	width: 75%;
+	
+}
+
+.For-All-Projects article{
+	margin-top: 1rem;
+	margin-left:2.5rem;
+	margin-right: 2.5rem;
+	text-align: justify;
+}
+
+#tech-stack{
+	margin-top: 1.3rem;
+}
+
+.flipbook .page-number{
+	font-family: "Stempel-Garamond-W01-Roman";
+	color:#999;
+	width:100%;
+	bottom:15px;
+	position:absolute;
+	display:block;
+	text-align: center;
+	line-height:30px;
+	font-size:15px;
+}
+

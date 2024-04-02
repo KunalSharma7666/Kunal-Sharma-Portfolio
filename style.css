@@ -91,8 +91,8 @@ video{                      /* Video on the Home page */
    
 }
 
-.About span{
-
+.Headings{
+    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
@@ -101,13 +101,13 @@ video{                      /* Video on the Home page */
 
 }
 
-img{
+
+.about-me img{
 
     height: 35rem;
     width: 35rem;
     object-fit:contain;
     transform: scaleX(-1);
-    /* margin-left: -10rem; */
 }
 
 .about-me{
@@ -152,13 +152,13 @@ img{
 
 
 .flip-card-front {
-    background-color: #2980b9;
-    color: white;
+    background-color: #88b4dc;
+    color: black;
 }
   
 .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: #88b4dc;
+    color: black;
     transform: rotateY(180deg);
 }
 
@@ -167,7 +167,8 @@ img{
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: justify;
-    font-size: larger;  
+    font-size: larger;
+    font-weight: 500;  
 }
 .flipcard h4 {
     margin-top: 2rem;
@@ -176,8 +177,6 @@ img{
 
 .flipcard ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     line-height: 2em;
     
 }
@@ -198,4 +197,9 @@ img{
     list-style:disc;
     font-size: x-large;
   
+}
+
+.myProjects{
+
+    height: 100vh;
 }
