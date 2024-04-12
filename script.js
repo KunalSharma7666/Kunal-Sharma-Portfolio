@@ -21,6 +21,20 @@ document.body.addEventListener("keydown" , (ev) => {
   })
 
 
+let index = -2;
+  // Iterate over each page div
+  $('.flipbook > div').each(function () {
+    index++;
+    // Check if the page has content and doesn't have the specified ID
+    if ($(this).hasClass('table-contents') || $(this).hasClass('For-All-Projects')) {
+      // Assign page number dynamically
+      $(this).append('<span class="page-number">' + (index) + '</span>');
+    }
+  });
+  
+
+
+
 
 
 
