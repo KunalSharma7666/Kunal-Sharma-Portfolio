@@ -203,3 +203,15 @@ video{                      /* Video on the Home page */
 
     height: 100vh;
 }
+
+.getintouch{
+    height: 100vh;
+}
+
+.getintouch h2{
+
+    color: white;
+    text-align: center;
+    padding-top: 13rem;
+    font-size: 2rem;
+}
