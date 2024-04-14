@@ -8,6 +8,10 @@
     scrollbar-width: none;  
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .Home{
     display: flex;
     height: 83vh;
