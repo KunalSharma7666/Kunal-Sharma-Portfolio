@@ -59,11 +59,19 @@ body{
     z-index: 4;
 }
 .nav-content li a{
-
+    
     text-decoration: none;
     color: white;
     font-size: 1.9rem;
     z-index: 1;
+}
+
+.nav-content li a:hover{
+
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    
+
 }
 
 video{                      /* Video on the Home page */
