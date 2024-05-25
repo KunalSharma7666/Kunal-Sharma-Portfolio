@@ -189,11 +189,11 @@ video{                      /* Video on the Home page */
 }
 
 .flipcard article {
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: justify;
-    font-size: larger;
+    font-size: 1.1em;
     font-weight: 500;  
 }
 .flipcard h4 {
@@ -203,7 +203,7 @@ video{                      /* Video on the Home page */
 
 .flipcard ul {
     list-style: none;
-    line-height: 2em;
+    line-height: 1.7em;
     
 }
   
