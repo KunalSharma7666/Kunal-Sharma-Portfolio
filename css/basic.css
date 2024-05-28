@@ -1,3 +1,8 @@
+*{
+	-ms-overflow-style: none; 
+  	scrollbar-width: none; 
+}
+
 .flipbook-viewport{
 	/* overflow:hidden;
 	width:100%;
@@ -15,7 +20,7 @@
 .flipbook-viewport .flipbook{
 	width:922px;
 	height:600px;
-	left:260px;
+	left:100px;
 	top: 50px;
 }
 
@@ -226,10 +231,11 @@ hr{
 }
 
 .For-All-Projects article{
-	margin-top: 1rem;
 	margin-left:2.5rem;
 	margin-right: 2.5rem;
 	text-align: justify;
+	line-height: 1.2;
+
 }
 
 #tech-stack{
