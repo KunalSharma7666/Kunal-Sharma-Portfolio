@@ -20,7 +20,7 @@
 .flipbook-viewport .flipbook{
 	width:922px;
 	height:600px;
-	left:100px;
+	left:260px;
 	top: 50px;
 }
 
@@ -231,11 +231,10 @@ hr{
 }
 
 .For-All-Projects article{
+	margin-top: 1rem;
 	margin-left:2.5rem;
 	margin-right: 2.5rem;
 	text-align: justify;
-	line-height: 1.2;
-
 }
 
 #tech-stack{
