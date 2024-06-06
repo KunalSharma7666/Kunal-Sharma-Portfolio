@@ -241,3 +241,30 @@ video{                      /* Video on the Home page */
     padding-top: 13rem;
     font-size: 2rem;
 }
+
+
+  
+  .getintouch a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 615px;
+    overflow: hidden;
+    transition: transform 0.5s;
+    
+  }
+  .getintouch a .fa-brands{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+    margin-top: 30px;
+  }
+  
